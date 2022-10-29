@@ -7,7 +7,7 @@ num = 1.1
 try:
   tmp = float(N)
 except ValueError:
-  print('Это не число')
+  print('Это не число. Запустите программу заново')
 
 
 while N > 0:
