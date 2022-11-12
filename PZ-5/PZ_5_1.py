@@ -2,7 +2,7 @@
 
 def SortInc3(num):
     list_si = []
-    for i in range(60,60 + num):
+    for i in range(60, 60 + num):
             list_si.append(chr(i))
 
     return ''.join(list_si)
