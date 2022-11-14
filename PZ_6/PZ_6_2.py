@@ -22,7 +22,7 @@ while type(N) and type(R) != int: # обработка исключений
             min_search_list.append(i - R)
 
         min_num = min(min_search_list)
-        print(min_num)
+        #print(min_num)
         for i in A:
             if i - R == min_num:
                 min_num = i
