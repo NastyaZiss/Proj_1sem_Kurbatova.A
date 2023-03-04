@@ -4,7 +4,6 @@
 # 3. их среднее арифметическое
 import random
 from statistics import mean
-n=1
 lst=[3,4]
 n = int(input("Введите количество элементов в списке: n = "))
 lst = [random.randint(-3, 30) for a in range(int(n))]
